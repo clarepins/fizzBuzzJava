@@ -15,4 +15,15 @@ public class FizzBuzzTest {
         assertThat(answer, is("fizz"));
     }
 
+    @Test
+    public void shouldReturnBuzzWhenNumberIsMultipleOf5() {
+        int number = 5;
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        String answer = fizzBuzz.run(number);
+
+        assertThat(answer, is("buzz"));
+    }
+
 }
