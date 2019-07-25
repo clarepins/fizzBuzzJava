@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FizzBuzzTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-25T11:00:46" hostname="DESKTOP-37GH179" time="0.007">
+<testsuite name="FizzBuzzTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-25T11:05:45" hostname="DESKTOP-37GH179" time="0.007">
   <properties/>
-  <testcase name="shouldReturnFizzBuzzWhenNumberIsMultipleOf15" classname="FizzBuzzTest" time="0.007"/>
+  <testcase name="shouldReturnNumberIfItIsNotAMultipleOf3Or5" classname="FizzBuzzTest" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

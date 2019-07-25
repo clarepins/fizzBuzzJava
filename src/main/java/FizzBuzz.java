@@ -1,4 +1,3 @@
-
 public class FizzBuzz {
     public String run(int number) {
         String answer = "";
@@ -8,6 +7,8 @@ public class FizzBuzz {
             answer = "fizz";
         } else if (number % 5 == 0) {
             answer = "buzz";
+        } else {
+            answer = Integer.toString(number);
         }
         return answer;
     }
@@ -15,6 +16,6 @@ public class FizzBuzz {
 
 //    public static void main(String[] args) {
 //        FizzBuzz fizzBuzz = new FizzBuzz();
-//        System.out.println(fizzBuzz.run(3));
+//        System.out.println(fizzBuzz.run(30));
 //    }
 }

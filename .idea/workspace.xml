@@ -29,20 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="393">
+              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-start-column="2" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -114,33 +114,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.FizzBuzzTest.shouldReturnFizzBuzzWhenNumberIsMultipleOf15">
+  <component name="RunManager" selected="Application.FizzBuzz">
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
       <module name="FizzBuzzJava3.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="FizzBuzzTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FizzBuzzTest&quot; --debug" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="FizzBuzzTest.shouldReturnBuzzWhenNumberIsMultipleOf5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -202,13 +182,33 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="FizzBuzzTest.shouldReturnNumberIfItIsNotAMultipleOf3Or5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;FizzBuzzTest.shouldReturnNumberIfItIsNotAMultipleOf3Or5&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FizzBuzz" />
+        <item itemvalue="Gradle.FizzBuzzTest.shouldReturnNumberIfItIsNotAMultipleOf3Or5" />
         <item itemvalue="Gradle.FizzBuzzTest.shouldReturnFizzBuzzWhenNumberIsMultipleOf15" />
         <item itemvalue="Gradle.FizzBuzzTest.shouldReturnBuzzWhenNumberIsMultipleOf5" />
         <item itemvalue="Gradle.FizzBuzzTest.shouldReturnFizzWhenNumberIsMultipleOf3" />
-        <item itemvalue="Gradle.FizzBuzzTest" />
-        <item itemvalue="Application.FizzBuzz" />
       </list>
     </recent_temporary>
   </component>
@@ -226,12 +226,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest - 2019.07.25 at 11h 25m 02s.xml">
-      <configuration name="FizzBuzzTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest - 2019.07.25 at 11h 25m 31s.xml">
-      <configuration name="FizzBuzzTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="FizzBuzzTest_shouldReturnFizzWhenNumberIsMultipleOf3 - 2019.07.25 at 11h 25m 44s.xml">
       <configuration name="FizzBuzzTest.shouldReturnFizzWhenNumberIsMultipleOf3" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -256,9 +250,16 @@
     <history-entry file="FizzBuzzTest_shouldReturnFizzBuzzWhenNumberIsMultipleOf15 - 2019.07.25 at 12h 00m 47s.xml">
       <configuration name="FizzBuzzTest.shouldReturnFizzBuzzWhenNumberIsMultipleOf15" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnNumberIfItIsNotAMultipleOf3Or5 - 2019.07.25 at 12h 03m 29s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnNumberIfItIsNotAMultipleOf3Or5" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnNumberIfItIsNotAMultipleOf3Or5 - 2019.07.25 at 12h 05m 45s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnNumberIfItIsNotAMultipleOf3Or5" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08635394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -290,17 +291,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="393">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-start-column="2" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>

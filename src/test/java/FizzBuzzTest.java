@@ -37,4 +37,15 @@ public class FizzBuzzTest {
         assertThat(answer, is("fizz buzz"));
     }
 
+    @Test
+    public void shouldReturnNumberIfItIsNotAMultipleOf3Or5() {
+        int number = 7;
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        String answer = fizzBuzz.run(number);
+
+        assertThat(answer, is("7"));
+    }
+
 }
