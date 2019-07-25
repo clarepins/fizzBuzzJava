@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FizzBuzzTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-25T10:47:31" hostname="DESKTOP-37GH179" time="0.013">
+  <properties/>
+  <testcase name="shouldReturnFizzWhenNumberIsMultipleOf3" classname="FizzBuzzTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
