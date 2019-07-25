@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="410">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -41,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="85">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -114,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.FizzBuzzTest.shouldReturnBuzzWhenNumberIsMultipleOf5">
+  <component name="RunManager" selected="Gradle.FizzBuzzTest.shouldReturnFizzBuzzWhenNumberIsMultipleOf15">
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
       <module name="FizzBuzzJava3.main" />
@@ -162,6 +162,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="FizzBuzzTest.shouldReturnFizzBuzzWhenNumberIsMultipleOf15" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;FizzBuzzTest.shouldReturnFizzBuzzWhenNumberIsMultipleOf15&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="FizzBuzzTest.shouldReturnFizzWhenNumberIsMultipleOf3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -184,6 +204,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FizzBuzzTest.shouldReturnFizzBuzzWhenNumberIsMultipleOf15" />
         <item itemvalue="Gradle.FizzBuzzTest.shouldReturnBuzzWhenNumberIsMultipleOf5" />
         <item itemvalue="Gradle.FizzBuzzTest.shouldReturnFizzWhenNumberIsMultipleOf3" />
         <item itemvalue="Gradle.FizzBuzzTest" />
@@ -205,12 +226,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest - 2019.07.25 at 11h 19m 27s.xml">
-      <configuration name="FizzBuzzTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest - 2019.07.25 at 11h 24m 56s.xml">
-      <configuration name="FizzBuzzTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="FizzBuzzTest - 2019.07.25 at 11h 25m 02s.xml">
       <configuration name="FizzBuzzTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -234,6 +249,12 @@
     </history-entry>
     <history-entry file="FizzBuzzTest_shouldReturnBuzzWhenNumberIsMultipleOf5 - 2019.07.25 at 11h 55m 20s.xml">
       <configuration name="FizzBuzzTest.shouldReturnBuzzWhenNumberIsMultipleOf5" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnFizzBuzzWhenNumberIsMultipleOf15 - 2019.07.25 at 11h 59m 50s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnFizzBuzzWhenNumberIsMultipleOf15" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnFizzBuzzWhenNumberIsMultipleOf15 - 2019.07.25 at 12h 00m 47s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnFizzBuzzWhenNumberIsMultipleOf15" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -271,15 +292,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="410">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>

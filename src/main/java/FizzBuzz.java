@@ -2,7 +2,9 @@
 public class FizzBuzz {
     public String run(int number) {
         String answer = "";
-        if (number % 3 == 0) {
+        if (number % 15 == 0) {
+            answer = "fizz buzz";
+        } else if (number % 3 == 0) {
             answer = "fizz";
         } else if (number % 5 == 0) {
             answer = "buzz";
